@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2e2e2e; /* Dark background */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #333; /* Dark background for the container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+h1 {
+  color: white; /* White text for headings */
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 95%;
+  padding: 10px; /* Smaller padding */
+  font-size: 14px; /* Smaller font size */
+  border: 1px solid #555;
+  border-radius: 8px;
+  margin-top: 5px;
+  background-color: #444;
+  color: white;
+  transition: border-color 0.3s;
+}
+
+.container {
+  padding: 20px;
+  width: 80%; /* Reduce container width to make form fit better */
+  max-width: 500px; /* Set a max-width for better responsiveness */
+}
+
+.form-group {
+  margin-bottom: 12px; /* Adjust form spacing */
+}
+
+
+input:focus {
+  border-color: #00aaff; /* Highlight input fields on focus */
+  outline: none;
+}
+
+.btn {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #333; /* Dark button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.resume-container {
+  padding: 20px;
+  background-color: #333; /* Dark container */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resume-header h1 {
+  margin: 0;
+  color: white;
+}
+
+.resume-header p {
+  margin: 5px 0;
+  color: white;
+}
+
+.resume-section {
+  margin-bottom: 20px;
+}
+
+.resume-section h2 {
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.resume-section p {
+  margin: 5px 0;
+  color: white;
+}
+a {
+  color: #00aaff; /* New color that suits the theme */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  color: #0077cc; /* Hover effect */
+}
